@@ -6,4 +6,4 @@ permalink: /cv/
 
 You can download my CV here:
 
-[Download CV](/assets/Santiago_Neira_CV.pdf)
+[Download CV](/assets/CV Santiago Neira Lopez.pdf)
