@@ -2,17 +2,6 @@
 ---
 
 .hero {
-  padding-top: 3rem;
-}
-
-@media (max-width: 600px) {
-  .hero {
-    padding-top: 4rem;
-  }
-}
-
-
-.hero {
   display: flex;
   gap: 40px;
   align-items: center;
@@ -61,3 +50,15 @@
     text-align: center;
   }
 }
+
+/* Disable hamburger menu */
+.site-nav .nav-trigger {
+  display: none !important;
+}
+
+/* Always show navigation links */
+.site-nav .trigger {
+  display: block !important;
+  position: static;
+}
+
