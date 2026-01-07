@@ -2,7 +2,11 @@
 layout: home
 ---
 
-# Santiago Neira Lopez
+<img src="/assets/photo.jpeg"
+     alt="Santiago Neira"
+     style="width:180px; border-radius:50%; display:block; margin:auto;" />
+
+# Santiago Neira
 
 **PhD student in Mathematics**  
 Applied Mathematics • Statistics • Machine Learning
