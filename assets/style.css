@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hero-left {
+  text-align: center;
+  min-width: 220px;
+}
+
+.profile-pic {
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.socials svg {
+  width: 26px;
+  height: 26px;
+  fill: #333;
+  transition: transform 0.2s, fill 0.2s;
+}
+
+.socials svg:hover {
+  transform: scale(1.1);
+  fill: #0077b5; /* LinkedIn blue */
+}
+
+.hero-right {
+  max-width: 700px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}
