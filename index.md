@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img src="/assets/photo.jpeg"
+<img src="{{ site.baseurl }}/assets/photo.jpeg"
      alt="Santiago Neira"
      style="width:180px; border-radius:50%; display:block; margin:auto; margin-bottom:20px;" />
 
