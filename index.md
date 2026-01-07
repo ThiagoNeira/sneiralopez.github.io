@@ -22,19 +22,20 @@ layout: home
     </div>
   </div>
 
-  <div class="hero-right">
+<div class="hero-right">
+  <h1>Santiago Neira</h1>
 
-# Santiago Neira
+  <p><strong>PhD Student in Mathematics</strong><br>
+  Applied Mathematics • Statistics • Machine Learning</p>
 
-**PhD Student in Mathematics**  
-Applied Mathematics • Statistics • Machine Learning
-
-I am a PhD student in Mathematics with strong training in statistics, applied mathematics, and machine learning.
-My research and applied work focus on probabilistic modeling, deep learning, and numerical methods for scientific
-and data-driven problems.
-
-  </div>
+  <p>
+    I am a PhD student in Mathematics with strong training in statistics,
+    applied mathematics, and machine learning. My work focuses on applying
+    probabilistic models, deep learning, and numerical methods to scientific
+    and data-driven problems.
+  </p>
 </div>
+
 
 ---
 
