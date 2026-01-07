@@ -2,8 +2,8 @@ theme: minima
 title: Santiago Neira Lopez
 description: Applied Mathematics & Machine Learning
 header_pages:
+  - index.md
   - about.md
   - projects.md
   - cv.md
-
 
