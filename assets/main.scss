@@ -9,7 +9,6 @@
   margin-bottom: 40px;
 }
 
-
 .hero-left {
   text-align: center;
   min-width: 220px;
@@ -36,14 +35,14 @@
 
 .socials svg:hover {
   transform: scale(1.1);
-  fill: #0077b5; /* LinkedIn blue */
+  fill: #0077b5;
 }
 
 .hero-right {
   max-width: 700px;
 }
 
-/* Mobile */
+/* Mobile hero layout */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -51,14 +50,34 @@
   }
 }
 
-/* Disable hamburger menu */
-.site-nav .nav-trigger {
+/* ============================= */
+/* FORCE DESKTOP NAVIGATION */
+/* ============================= */
+
+.site-nav {
+  display: flex !important;
+  align-items: center;
+}
+
+.site-nav input[type="checkbox"] {
   display: none !important;
 }
 
-/* Always show navigation links */
-.site-nav .trigger {
-  display: block !important;
-  position: static;
+.site-nav .menu-icon {
+  display: none !important;
 }
 
+.site-nav .trigger {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+  position: static !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.site-nav .page-link {
+  display: inline-block;
+  padding: 0;
+}
