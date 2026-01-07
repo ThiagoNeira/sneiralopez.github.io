@@ -1,6 +1,10 @@
 ---
 ---
 
+/* ============================= */
+/* HERO SECTION */
+/* ============================= */
+
 .hero {
   display: flex;
   gap: 40px;
@@ -30,7 +34,7 @@
   width: 26px;
   height: 26px;
   fill: #333;
-  transition: transform 0.2s, fill 0.2s;
+  transition: transform 0.2s ease, fill 0.2s ease;
 }
 
 .socials svg:hover {
@@ -51,6 +55,32 @@
 }
 
 /* ============================= */
+/* HEADER POLISH (INDUSTRY STYLE) */
+/* ============================= */
+
+.site-header {
+  padding: 18px 0;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Make header layout flex */
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+}
+
+/* Hide site title (name) */
+.site-title {
+  display: none !important;
+}
+
+/* ============================= */
 /* FORCE DESKTOP NAVIGATION */
 /* ============================= */
 
@@ -59,10 +89,7 @@
   align-items: center;
 }
 
-.site-nav input[type="checkbox"] {
-  display: none !important;
-}
-
+.site-nav input[type="checkbox"],
 .site-nav .menu-icon {
   display: none !important;
 }
@@ -71,24 +98,45 @@
   display: flex !important;
   flex-direction: row;
   align-items: center;
-  gap: 1.25rem;
+  gap: 26px;
   position: static !important;
   background: none !important;
   box-shadow: none !important;
 }
 
-/* ============================= */
-/* HIDE SITE TITLE (NAME) */
-/* ============================= */
-
-.site-title {
-  display: none !important;
+/* Navigation links */
+.site-nav .page-link {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  padding: 0;
 }
 
+/* Hover underline animation */
+.site-nav .page-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #111;
+  transition: width 0.25s ease;
+}
 
-.site-nav .page-link {
-  display: inline-block;
-  padding: 0;
+.site-nav .page-link:hover::after {
+  width: 100%;
+}
+
+/* Active page indicator */
+.site-nav .page-link.active {
+  font-weight: 600;
+}
+
+.site-nav .page-link.active::after {
+  width: 100%;
 }
 
 /* ============================= */
@@ -98,4 +146,3 @@
 .site-footer {
   display: none !important;
 }
-
