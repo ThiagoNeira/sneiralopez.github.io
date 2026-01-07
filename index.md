@@ -4,9 +4,9 @@ layout: home
 
 <img src="/assets/photo.jpeg"
      alt="Santiago Neira"
-     style="width:220px; border-radius:50%; display:block; margin:auto;" />
+     style="width:180px; border-radius:50%; display:block; margin:auto; margin-bottom:20px;" />
 
-
+# Santiago Neira
 
 **PhD student in Mathematics**  
 Applied Mathematics • Statistics • Machine Learning
