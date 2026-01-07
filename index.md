@@ -4,7 +4,8 @@ layout: home
 
 <img src="/assets/photo.jpeg"
      alt="Santiago Neira"
-     style="width:180px; border-radius:50%; display:block; margin:auto;" />
+     style="width:220px; border-radius:50%; display:block; margin:auto;" />
+
 
 
 **PhD student in Mathematics**  
