@@ -53,9 +53,3 @@ layout: home
 
 ➡️ See more on the [Projects](/projects/) page.
 
----
-
-## Get in touch
-- 📄 [Download my CV](/cv/)
-- 💻 [GitHub](https://github.com/yourusername)
-- 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
