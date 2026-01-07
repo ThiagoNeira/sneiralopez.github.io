@@ -14,7 +14,7 @@ layout: home
         </svg>
       </a>
 
-      <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+      <a href="https://linkedin.com/in/thiagoneira/" target="_blank" aria-label="LinkedIn">
         <svg viewBox="0 0 24 24" role="img">
           <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 5-2.7 5.3 0 6.3 3.5 6.3 8V24h-5V16.5c0-1.8 0-4.1-2.5-4.1s-2.9 2-2.9 4v7.6h-5V8z"/>
         </svg>
