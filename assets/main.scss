@@ -2,31 +2,6 @@
 ---
 
 /* ============================= */
-/* COLOR VARIABLES (LIGHT / DARK) */
-/* ============================= */
-
-:root {
-  --bg: #ffffff;
-  --text: #111111;
-  --muted: #666666;
-  --border: #eaeaea;
-  --link: #333333;
-}
-
-[data-theme="dark"] {
-  --bg: #0f1115;
-  --text: #e6e6e6;
-  --muted: #aaaaaa;
-  --border: #222;
-  --link: #e6e6e6;
-}
-
-body {
-  background: var(--bg);
-  color: var(--text);
-}
-
-/* ============================= */
 /* HERO SECTION */
 /* ============================= */
 
@@ -34,7 +9,7 @@ body {
   display: flex;
   gap: 40px;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 40px;
 }
 
@@ -58,7 +33,7 @@ body {
 .socials svg {
   width: 26px;
   height: 26px;
-  fill: var(--link);
+  fill: #333;
   transition: transform 0.2s ease, fill 0.2s ease;
 }
 
@@ -85,8 +60,8 @@ body {
 
 .site-header {
   padding: 18px 0;
-  border-bottom: 1px solid var(--border);
-  background: var(--bg);
+  border-bottom: 1px solid #eaeaea;
+  background: #fff;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -133,7 +108,7 @@ body {
 .site-nav .page-link {
   font-size: 0.95rem;
   font-weight: 500;
-  color: var(--link);
+  color: #333;
   text-decoration: none;
   position: relative;
   padding: 0;
@@ -147,7 +122,7 @@ body {
   bottom: -5px;
   width: 0;
   height: 2px;
-  background: var(--text);
+  background: #111;
   transition: width 0.25s ease;
 }
 
@@ -162,19 +137,6 @@ body {
 
 .site-nav .page-link.active::after {
   width: 100%;
-}
-
-/* ============================= */
-/* DARK MODE TOGGLE BUTTON */
-/* ============================= */
-
-.theme-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.1rem;
-  color: var(--text);
-  margin-left: 18px;
 }
 
 /* ============================= */
