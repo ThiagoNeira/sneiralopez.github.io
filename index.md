@@ -47,5 +47,5 @@ title: Home
 - **Transformer Language Model** — trained on Tiny Shakespeare
 - **Operator Learning for PDEs** — neural operators and surrogate models
 
-➡️ See more on the [Projects](/projects/) page.
+See more on the [Projects](/projects/) page.
 
