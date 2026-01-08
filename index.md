@@ -26,15 +26,10 @@ title: Home
 <div class="hero-right">
   <h1>Santiago Neira</h1>
 
-  <p><strong>PhD Student in Mathematics</strong><br>
+  <p><strong>PhD Student in Mathematics at University of Massachusetts Amherst </strong><br>
   Applied Mathematics • Statistics • Machine Learning</p>
 
-  <p>
-    I am a PhD student in Mathematics with strong training in statistics,
-    applied mathematics, and machine learning. My work focuses on applying
-    probabilistic models, deep learning, and numerical methods to scientific
-    and data-driven problems.
-  </p>
+
 </div>
 </div>
 
