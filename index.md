@@ -46,5 +46,5 @@ title: Home
 ## Selected Projects
 - **Operator Learning** —  DeepONet, FNO, and Transformer approach to approximate antiderivative operator
 
-See more on the [Projects](/projects/) page.
+See more on the [Projects](/sneiralopez.github.io/projects/) page.
 
