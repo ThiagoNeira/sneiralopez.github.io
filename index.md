@@ -44,8 +44,7 @@ title: Home
 ---
 
 ## Selected Projects
-- **Transformer Language Model** — trained on Tiny Shakespeare
-- **Operator Learning for PDEs** — neural operators and surrogate models
+- **Operator Learning** —  DeepONet, FNO, and Transformer approach to approximate antiderivative operator
 
 See more on the [Projects](/projects/) page.
 
