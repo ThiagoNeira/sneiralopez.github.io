@@ -6,7 +6,4 @@ permalink: /about/
 
 
 
-I am a PhD student in Mathematics at UMass Amherst with strong training in statistics,
-applied mathematics, and machine learning. My work focuses on applying
-probabilistic models, deep learning, and numerical methods to scientific
-and data-driven problems.
+I am a PhD student in Mathematics at the University of Massachusetts Amherst. My research focuses on developing and applying machine learning, probabilistic methods, and numerical algorithms to scientific computing, with interests in Gaussian processes, operator learning, and surrogate modeling.
