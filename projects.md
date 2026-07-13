@@ -17,7 +17,7 @@ Implementation of the Heston stochastic volatility model for European option pri
 
 **Technologies:** Python, NumPy, SciPy, Pandas
 
-**Repository:** [GitHub]([https://github.com/ThiagoNeira/Heston-Project](https://github.com/ThiagoNeira/Heston-Option-Pricing-Analysis))
+**Repository:** [GitHub](https://github.com/ThiagoNeira/Heston-Option-Pricing-Analysis)
 
 
 ### Operator Learning DeepONet, FNO and Transformer approach to approximate antiderivative operator.
