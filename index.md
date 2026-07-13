@@ -37,9 +37,9 @@ title: Home
 
 ## Research Interests
 - Machine learning and deep learning
-- Statistical modeling and inference
-- Applied mathematics
-- Scientific computing and numerical methods
+- Bayesian Statistics and Probabilistic Modeling
+- Scientific Computing and Numerical Methods
+- Surrogate Modeling and Operator Learning
 
 ---
 
