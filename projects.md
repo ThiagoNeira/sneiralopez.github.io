@@ -20,7 +20,7 @@ Implementation of the Heston stochastic volatility model for European option pri
 **Repository:** [GitHub](https://github.com/ThiagoNeira/Heston-Option-Pricing-Analysis)
 
 
-### Operator Learning DeepONet, FNO and Transformer approach to approximate antiderivative operator.
+### Operator Learning DeepONet, FNO and Transformer approach to approximate antiderivative operator (Ongoing).
 
 This project started as a sequel of my oral exam where I studied operator learning. [Slides](/assets/Oral exam.pdf)
 
