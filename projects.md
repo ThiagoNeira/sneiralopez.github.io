@@ -9,9 +9,9 @@ The Black–Scholes model assumes constant volatility, which fails to reproduce 
 
 This project implements the model end-to-end:
 
-  1. Three independent pricing engines — Monte Carlo simulation, direct numerical integration of the semi-closed-form solution, and the Carr–Madan (1999) FFT method — cross-validated against each other and     benchmarked for speed.
-  2. A robust calibration framework that combines a global, derivative-free optimizer (differential evolution) with a local gradient-based polish (least squares) to recover model parameters reliably, even from poor initial guesses.
-  3. Application to real market data — TSLA daily equity options quotes (2019–2022) — comparing calibration objectives (price error vs. implied-volatility error) and pricing input conventions (bid-ask midpoint vs. depth-weighted price).
+  - Three independent pricing engines — Monte Carlo simulation, direct numerical integration of the semi-closed-form solution, and the Carr–Madan (1999) FFT method — cross-validated against each other and     benchmarked for speed.
+  -  A robust calibration framework that combines a global, derivative-free optimizer (differential evolution) with a local gradient-based polish (least squares) to recover model parameters reliably, even from poor initial guesses.
+  - Application to real market data — TSLA daily equity options quotes (2019–2022) — comparing calibration objectives (price error vs. implied-volatility error) and pricing input conventions (bid-ask midpoint vs. depth-weighted price).
 
 2. **Operator Learning:** DeepONet, FNO and Transformer approach to approximate antiderivative operator.
 
