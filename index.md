@@ -27,7 +27,7 @@ title: Home
   <h1>Santiago Neira</h1>
 
   <p><strong>PhD Student in Mathematics at University of Massachusetts Amherst </strong><br>
-  Applied Mathematics • Statistics • Machine Learning</p>
+  Statistics • Machine Learning • Applied Mathematics </p>
 
 
 </div>
