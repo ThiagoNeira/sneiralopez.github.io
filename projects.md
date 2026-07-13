@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-1. ** Heston Stochastic Volatility Model — Pricing, Calibration & Market Application** The Black–Scholes model assumes constant volatility, which fails to reproduce the volatility "smile" observed in real option markets. The Heston model treats variance itself as a mean-reverting stochastic process correlated with the underlying asset's returns, giving it the flexibility to fit market-observed smiles.
+1. **Heston Stochastic Volatility Model — Pricing, Calibration & Market Application:** The Black–Scholes model assumes constant volatility, which fails to reproduce the volatility "smile" observed in real option markets. The Heston model treats variance itself as a mean-reverting stochastic process correlated with the underlying asset's returns, giving it the flexibility to fit market-observed smiles.
 
 This project implements the model end-to-end:
 
