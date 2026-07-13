@@ -45,7 +45,7 @@ title: Home
 
 ## Selected Projects
 - **Heston Stochastic Volatility Model**
-- **Operator Learning: —  DeepONet, FNO, and Transformer approach to approximate antiderivative operator.**
+- **Operator Learning: —  DeepONet, FNO, and Transformer approach to approximate antiderivative operator. (Ongoing)**
 
 See more on the [Projects](/sneiralopez.github.io/projects/) page.
 
